@@ -1,0 +1,83 @@
+/* GENERAL */
+body {
+	margin: 0;
+}
+
+/* HEADER STYLES */
+.header {
+	background-color: lightcoral;
+	display: flex;
+	justify-content: center;
+}
+
+.ul {
+	display: flex;
+	gap: 20px;
+	list-style-type: none;
+}
+
+/* MAIN STYLES */
+.main {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	/* Skriv dette */
+	min-width: 100%;
+
+	/* Unngå å skriv dette
+   width: 1024px; */
+}
+
+.img {
+	max-height: 400px;
+
+	/* Skriv dette */
+	min-width: 50%;
+
+	/* Unngå å skriv dette
+   width: 512px; */
+}
+
+.p {
+	text-align: center;
+
+	/* Skriv dette */
+	min-width: 50%;
+
+	/* Unngå å skriv dette
+   width: 512px; */
+}
+
+/* FOOTER STYLES */
+.footer {
+	background-color: lightblue;
+	display: flex;
+	justify-content: center;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 767px) {
+	.header {
+		background-color: lightblue;
+	}
+
+	.section {
+		flex-direction: column;
+	}
+
+	.ul {
+		flex-direction: column;
+	}
+
+	.footer {
+		background-color: lightcoral;
+	}
+}
